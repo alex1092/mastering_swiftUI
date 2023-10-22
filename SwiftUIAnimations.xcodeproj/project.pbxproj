@@ -11,6 +11,18 @@
 		FA273FEE2AE529C900363F8E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA273FED2AE529C900363F8E /* ContentView.swift */; };
 		FA273FF02AE529C900363F8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA273FEF2AE529C900363F8E /* Assets.xcassets */; };
 		FA273FF32AE529C900363F8E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA273FF22AE529C900363F8E /* Preview Assets.xcassets */; };
+		FA273FFB2AE52BB700363F8E /* HelperTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA273FFA2AE52BB700363F8E /* HelperTemplate.swift */; };
+		FA8568C12AE5681D00038886 /* AnimationsEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8568C02AE5681D00038886 /* AnimationsEntryView.swift */; };
+		FAB56DB42AE5306900F62EF4 /* NoAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB56DB32AE5306900F62EF4 /* NoAnimation.swift */; };
+		FAB56DB62AE5367A00F62EF4 /* WithAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB56DB52AE5367A00F62EF4 /* WithAnimation.swift */; };
+		FAB56DB82AE53B0E00F62EF4 /* CurveOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB56DB72AE53B0E00F62EF4 /* CurveOptions.swift */; };
+		FAB56DBA2AE53D0D00F62EF4 /* WidthAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB56DB92AE53D0D00F62EF4 /* WidthAnimationView.swift */; };
+		FAB56DBC2AE53EC700F62EF4 /* ColorAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB56DBB2AE53EC700F62EF4 /* ColorAnimations.swift */; };
+		FAB56DBE2AE5408300F62EF4 /* ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB56DBD2AE5408300F62EF4 /* ChallengeView.swift */; };
+		FAB56DC32AE5457B00F62EF4 /* RotationAroundAnchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB56DC22AE5457B00F62EF4 /* RotationAroundAnchors.swift */; };
+		FAB56DC52AE5483700F62EF4 /* ScalingFromAnAnchorPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB56DC42AE5483700F62EF4 /* ScalingFromAnAnchorPoint.swift */; };
+		FAB56DC72AE54BC200F62EF4 /* TextSizeAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB56DC62AE54BC200F62EF4 /* TextSizeAnimationView.swift */; };
+		FAB56DC92AE54D4B00F62EF4 /* AnimatablePropertiesChallange.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB56DC82AE54D4B00F62EF4 /* AnimatablePropertiesChallange.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +31,18 @@
 		FA273FED2AE529C900363F8E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA273FEF2AE529C900363F8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA273FF22AE529C900363F8E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA273FFA2AE52BB700363F8E /* HelperTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperTemplate.swift; sourceTree = "<group>"; };
+		FA8568C02AE5681D00038886 /* AnimationsEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsEntryView.swift; sourceTree = "<group>"; };
+		FAB56DB32AE5306900F62EF4 /* NoAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoAnimation.swift; sourceTree = "<group>"; };
+		FAB56DB52AE5367A00F62EF4 /* WithAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithAnimation.swift; sourceTree = "<group>"; };
+		FAB56DB72AE53B0E00F62EF4 /* CurveOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurveOptions.swift; sourceTree = "<group>"; };
+		FAB56DB92AE53D0D00F62EF4 /* WidthAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidthAnimationView.swift; sourceTree = "<group>"; };
+		FAB56DBB2AE53EC700F62EF4 /* ColorAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorAnimations.swift; sourceTree = "<group>"; };
+		FAB56DBD2AE5408300F62EF4 /* ChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeView.swift; sourceTree = "<group>"; };
+		FAB56DC22AE5457B00F62EF4 /* RotationAroundAnchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationAroundAnchors.swift; sourceTree = "<group>"; };
+		FAB56DC42AE5483700F62EF4 /* ScalingFromAnAnchorPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScalingFromAnAnchorPoint.swift; sourceTree = "<group>"; };
+		FAB56DC62AE54BC200F62EF4 /* TextSizeAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSizeAnimationView.swift; sourceTree = "<group>"; };
+		FAB56DC82AE54D4B00F62EF4 /* AnimatablePropertiesChallange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatablePropertiesChallange.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +75,10 @@
 		FA273FEA2AE529C900363F8E /* SwiftUIAnimations */ = {
 			isa = PBXGroup;
 			children = (
+				FA8568BE2AE567CC00038886 /* Screens */,
 				FA273FEB2AE529C900363F8E /* SwiftUIAnimationsApp.swift */,
 				FA273FED2AE529C900363F8E /* ContentView.swift */,
+				FA273FFA2AE52BB700363F8E /* HelperTemplate.swift */,
 				FA273FEF2AE529C900363F8E /* Assets.xcassets */,
 				FA273FF12AE529C900363F8E /* Preview Content */,
 			);
@@ -65,6 +91,48 @@
 				FA273FF22AE529C900363F8E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA8568BE2AE567CC00038886 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				FA8568BF2AE567DA00038886 /* Animations */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		FA8568BF2AE567DA00038886 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				FAB56DB22AE5304400F62EF4 /* GettingStarted */,
+				FAB56DBF2AE5440B00F62EF4 /* AnimatableProperties */,
+				FA8568C02AE5681D00038886 /* AnimationsEntryView.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		FAB56DB22AE5304400F62EF4 /* GettingStarted */ = {
+			isa = PBXGroup;
+			children = (
+				FAB56DB32AE5306900F62EF4 /* NoAnimation.swift */,
+				FAB56DB52AE5367A00F62EF4 /* WithAnimation.swift */,
+				FAB56DB72AE53B0E00F62EF4 /* CurveOptions.swift */,
+				FAB56DB92AE53D0D00F62EF4 /* WidthAnimationView.swift */,
+				FAB56DBB2AE53EC700F62EF4 /* ColorAnimations.swift */,
+				FAB56DBD2AE5408300F62EF4 /* ChallengeView.swift */,
+			);
+			path = GettingStarted;
+			sourceTree = "<group>";
+		};
+		FAB56DBF2AE5440B00F62EF4 /* AnimatableProperties */ = {
+			isa = PBXGroup;
+			children = (
+				FAB56DC22AE5457B00F62EF4 /* RotationAroundAnchors.swift */,
+				FAB56DC42AE5483700F62EF4 /* ScalingFromAnAnchorPoint.swift */,
+				FAB56DC62AE54BC200F62EF4 /* TextSizeAnimationView.swift */,
+				FAB56DC82AE54D4B00F62EF4 /* AnimatablePropertiesChallange.swift */,
+			);
+			path = AnimatableProperties;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +205,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB56DB82AE53B0E00F62EF4 /* CurveOptions.swift in Sources */,
 				FA273FEE2AE529C900363F8E /* ContentView.swift in Sources */,
+				FA8568C12AE5681D00038886 /* AnimationsEntryView.swift in Sources */,
+				FAB56DBE2AE5408300F62EF4 /* ChallengeView.swift in Sources */,
+				FAB56DC92AE54D4B00F62EF4 /* AnimatablePropertiesChallange.swift in Sources */,
+				FAB56DBC2AE53EC700F62EF4 /* ColorAnimations.swift in Sources */,
+				FAB56DB62AE5367A00F62EF4 /* WithAnimation.swift in Sources */,
+				FAB56DC72AE54BC200F62EF4 /* TextSizeAnimationView.swift in Sources */,
+				FAB56DBA2AE53D0D00F62EF4 /* WidthAnimationView.swift in Sources */,
+				FAB56DB42AE5306900F62EF4 /* NoAnimation.swift in Sources */,
+				FAB56DC32AE5457B00F62EF4 /* RotationAroundAnchors.swift in Sources */,
+				FA273FFB2AE52BB700363F8E /* HelperTemplate.swift in Sources */,
 				FA273FEC2AE529C900363F8E /* SwiftUIAnimationsApp.swift in Sources */,
+				FAB56DC52AE5483700F62EF4 /* ScalingFromAnAnchorPoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
