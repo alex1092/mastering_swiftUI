@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA0004C52AE630FE00DFE5BD /* ShowLoginChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0004C42AE630FE00DFE5BD /* ShowLoginChallenge.swift */; };
 		FA273FEC2AE529C900363F8E /* SwiftUIAnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA273FEB2AE529C900363F8E /* SwiftUIAnimationsApp.swift */; };
 		FA273FEE2AE529C900363F8E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA273FED2AE529C900363F8E /* ContentView.swift */; };
 		FA273FF02AE529C900363F8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA273FEF2AE529C900363F8E /* Assets.xcassets */; };
@@ -23,9 +24,12 @@
 		FAB56DC52AE5483700F62EF4 /* ScalingFromAnAnchorPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB56DC42AE5483700F62EF4 /* ScalingFromAnAnchorPoint.swift */; };
 		FAB56DC72AE54BC200F62EF4 /* TextSizeAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB56DC62AE54BC200F62EF4 /* TextSizeAnimationView.swift */; };
 		FAB56DC92AE54D4B00F62EF4 /* AnimatablePropertiesChallange.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB56DC82AE54D4B00F62EF4 /* AnimatablePropertiesChallange.swift */; };
+		FAED2F8C2AE63B38004B8BC8 /* ShowMenuChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAED2F8B2AE63B38004B8BC8 /* ShowMenuChallenge.swift */; };
+		FAED2F8F2AE6419C004B8BC8 /* TriggerAnimationEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAED2F8E2AE6419C004B8BC8 /* TriggerAnimationEntryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA0004C42AE630FE00DFE5BD /* ShowLoginChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowLoginChallenge.swift; sourceTree = "<group>"; };
 		FA273FE82AE529C900363F8E /* SwiftUIAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA273FEB2AE529C900363F8E /* SwiftUIAnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAnimationsApp.swift; sourceTree = "<group>"; };
 		FA273FED2AE529C900363F8E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -43,6 +47,8 @@
 		FAB56DC42AE5483700F62EF4 /* ScalingFromAnAnchorPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScalingFromAnAnchorPoint.swift; sourceTree = "<group>"; };
 		FAB56DC62AE54BC200F62EF4 /* TextSizeAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSizeAnimationView.swift; sourceTree = "<group>"; };
 		FAB56DC82AE54D4B00F62EF4 /* AnimatablePropertiesChallange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatablePropertiesChallange.swift; sourceTree = "<group>"; };
+		FAED2F8B2AE63B38004B8BC8 /* ShowMenuChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowMenuChallenge.swift; sourceTree = "<group>"; };
+		FAED2F8E2AE6419C004B8BC8 /* TriggerAnimationEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerAnimationEntryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,7 @@
 		FA8568BF2AE567DA00038886 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				FAED2F8D2AE6415B004B8BC8 /* Triggers */,
 				FAB56DB22AE5304400F62EF4 /* GettingStarted */,
 				FAB56DBF2AE5440B00F62EF4 /* AnimatableProperties */,
 				FA8568C02AE5681D00038886 /* AnimationsEntryView.swift */,
@@ -131,8 +138,18 @@
 				FAB56DC42AE5483700F62EF4 /* ScalingFromAnAnchorPoint.swift */,
 				FAB56DC62AE54BC200F62EF4 /* TextSizeAnimationView.swift */,
 				FAB56DC82AE54D4B00F62EF4 /* AnimatablePropertiesChallange.swift */,
+				FA0004C42AE630FE00DFE5BD /* ShowLoginChallenge.swift */,
+				FAED2F8B2AE63B38004B8BC8 /* ShowMenuChallenge.swift */,
 			);
 			path = AnimatableProperties;
+			sourceTree = "<group>";
+		};
+		FAED2F8D2AE6415B004B8BC8 /* Triggers */ = {
+			isa = PBXGroup;
+			children = (
+				FAED2F8E2AE6419C004B8BC8 /* TriggerAnimationEntryView.swift */,
+			);
+			path = Triggers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,10 +228,13 @@
 				FAB56DBE2AE5408300F62EF4 /* ChallengeView.swift in Sources */,
 				FAB56DC92AE54D4B00F62EF4 /* AnimatablePropertiesChallange.swift in Sources */,
 				FAB56DBC2AE53EC700F62EF4 /* ColorAnimations.swift in Sources */,
+				FA0004C52AE630FE00DFE5BD /* ShowLoginChallenge.swift in Sources */,
 				FAB56DB62AE5367A00F62EF4 /* WithAnimation.swift in Sources */,
 				FAB56DC72AE54BC200F62EF4 /* TextSizeAnimationView.swift in Sources */,
 				FAB56DBA2AE53D0D00F62EF4 /* WidthAnimationView.swift in Sources */,
 				FAB56DB42AE5306900F62EF4 /* NoAnimation.swift in Sources */,
+				FAED2F8F2AE6419C004B8BC8 /* TriggerAnimationEntryView.swift in Sources */,
+				FAED2F8C2AE63B38004B8BC8 /* ShowMenuChallenge.swift in Sources */,
 				FAB56DC32AE5457B00F62EF4 /* RotationAroundAnchors.swift in Sources */,
 				FA273FFB2AE52BB700363F8E /* HelperTemplate.swift in Sources */,
 				FA273FEC2AE529C900363F8E /* SwiftUIAnimationsApp.swift in Sources */,

@@ -43,6 +43,18 @@ struct AnimationsEntryView: View {
                     NavigationLink(destination: AnimatablePropertiesChallange()) {
                         Text("Animatable Properties Challenge")
                     }
+                    NavigationLink(destination: ShowLoginChallenge()) {
+                        Text("Show Login Challeng")
+                    }
+                    NavigationLink(destination: ShowMenuChallenge()){
+                        Text("Show Menu Challenge")
+                    }
+                }
+                Section(header: Text("Triggers"))
+                {
+                    NavigationLink(destination: TriggerAnimationEntryView()) {
+                        Text("Trigger Animations")
+                    }
                 }
             }
         }
